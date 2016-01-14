@@ -9,11 +9,13 @@
         <link href='https://fonts.googleapis.com/css?family=Bangers&effect=fire-animation' rel='stylesheet' type='text/css'>
     </head>
     <body>
+        <div class ="font-effect-fire-animation">
         <div class="page-header">
             {% if user.is_authenticated %}
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
             {% endif %}
             <h1><a href="/">Alex's Project</a></h1>
+        </div>
         </div>
         <div class="content container">
             <div class="row">
